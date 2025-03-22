@@ -12,3 +12,5 @@ RUN \
     /bin/rm -rf /var/lib/apt/lists/* \
     && \
     /usr/bin/pip3 install --break-system-packages instaloader
+
+WORKDIR /root
